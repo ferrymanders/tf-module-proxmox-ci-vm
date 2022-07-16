@@ -14,7 +14,7 @@ variable vm_memory    { default = 8192 }
 variable net_ip       {}
 variable net_gw       {}
 variable net_subnet   { default = "/24" }
-variable net_tag      { default = "" }
+variable net_tag      { default = null }
 
 variable "disks" {
   type = list(object({
